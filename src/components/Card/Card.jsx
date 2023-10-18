@@ -1,17 +1,12 @@
 import {
   CardContainer,
-  CardLine,
   Avatar,
   AvatarImg,
-  AvatarCircle,
   UserName,
   Tweets,
   Followers,
   Button,
 } from './Card.styled';
-
-// import avatar from "../Pictures/avatar.png";
-import circle from '../Pictures/circle.png';
 
 export const Card = ({ person, toggleFollowing, userIsFollowed }) => {
   const { id, user, followers, tweets, avatar } = person;
@@ -20,9 +15,7 @@ export const Card = ({ person, toggleFollowing, userIsFollowed }) => {
 
   return (
     <CardContainer>
-      <CardLine />
       <Avatar>
-        <AvatarCircle src={circle} alt="circle" />
         <AvatarImg src={avatar} alt="user's avatar" />
       </Avatar>
       <UserName>{user}</UserName>

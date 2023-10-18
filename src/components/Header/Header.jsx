@@ -1,6 +1,6 @@
-import React from "react";
-import { StyledHeader, Navigation, NavigationLink } from "./Header.styled";
-import logo from "../Pictures/logo.svg";
+import React from 'react';
+import { StyledHeader, Navigation, NavigationLink } from './Header.styled';
+import logo from '../../Pictures/logo.svg';
 
 export const Header = () => {
   return (
