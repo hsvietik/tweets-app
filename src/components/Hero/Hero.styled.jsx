@@ -1,5 +1,5 @@
-import styled from "@emotion/styled";
-import backgroundImage from "../Pictures/messages.png";
+import styled from '@emotion/styled';
+import backgroundImage from '../../Pictures/messages.png';
 
 export const HeroSection = styled.section`
   padding: 50px;
